@@ -16,36 +16,36 @@
 
 // // TASK 2
 
-// const shoppingCart = [
-//   {
-//     name: "Cheese",
-//     count: 4,
-//     pricePerItem: 100,
-//   },
-//   {
-//     name: "Water",
-//     count: 5,
-//     pricePerItem: 23,
-//   },
-//   {
-//     name: "Banana",
-//     count: 8,
-//     pricePerItem: 55,
-//   },
-//   {
-//     name: "Choccolate",
-//     count: 2,
-//     pricePerItem: 115,
-//   },
-// ];
+const shoppingCart = [
+  {
+    name: "Cheese",
+    count: 4,
+    pricePerItem: 100,
+  },
+  {
+    name: "Water",
+    count: 5,
+    pricePerItem: 23,
+  },
+  {
+    name: "Banana",
+    count: 8,
+    pricePerItem: 55,
+  },
+  {
+    name: "Choccolate",
+    count: 2,
+    pricePerItem: 115,
+  },
+];
 
-// let total = 0;
+let total = 0;
 
-// for (product of shoppingCart) {
-//   total += Object.values(product)[1] * Object.values(product)[2];
-// }
+for (product of shoppingCart) {
+  total += product.count * product.pricePerItem;
+}
 
-// console.log(total);
+console.log(total);
 
 // // const total = shoppingCart.reduce(
 // //   (total, product) => total + product.count * product.pricePerItem,
