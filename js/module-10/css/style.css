@@ -1,0 +1,21 @@
+.listItem {
+  color: grey;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.list {
+  text-decoration: none;
+}
+
+.red {
+  color: red;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
