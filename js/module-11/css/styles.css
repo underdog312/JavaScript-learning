@@ -1,0 +1,51 @@
+.main-title {
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.left-side, .right-side {
+    width: 50%;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.todo-list {
+    border: 1px solid #c0c0c0;
+    border-radius: 6px;
+    padding: 0 12px 15px;
+    margin: 20px 0;
+}
+
+.submit-form {
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-input {
+    width: min-content;
+}
+
+.submit-button {
+    width: max-content;
+    padding: 6px;
+    border-radius: 4px;
+    background-color: blue;
+    color: whitesmoke;
+}
+
+.delete-button {
+    width: max-content;
+    padding: 6px;
+    border-radius: 4px;
+    background-color: red;
+    color: whitesmoke;
+}
